@@ -1,0 +1,69 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    margin-bottom: 5%;
+}
+nav{
+    display: flex;
+    justify-content: right;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.container{
+  height: 80%;
+}
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+    height: 500px;
+}
+.carousel-item{
+    padding: 60px 60px;
+}
+.price{
+    color: #FF136F;
+    /* margin: 30px; */
+}
+.buy-now-button{
+   background-image: linear-gradient(to bottom, #FF136F 0%, #FF136F 100%);
+   color: aliceblue;
+   border-radius: 8px;
+   padding: 9px 25px;
+   font-weight: bold;
+   cursor: pointer;
+   margin-top: 20px;
+}
+/* catagorie section */
+.img-section{
+    width: 320px;
+    height:200px;
+}
+.phone1{
+    background-color: orange;
+    padding: 10px 10px 10px 50px;
+    border-radius: 10px;
+}
+.phone2{
+    background-color: orchid;
+    padding: 10px 10px 10px 50px;
+    border-radius: 10px;
+}
+.phone3{
+    background-color: blue;
+    padding: 10px 10px 10px 50px;
+    border-radius: 10px;
+}
+/* card section */
+.img-card{
+    height: 500px;
+    width: 150px;
+}
+.card{
+    border: none;
+}
